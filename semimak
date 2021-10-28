@@ -41,7 +41,8 @@ xkb_symbols "basic" {
     key <AB09> {[ period,    greater   ]};
     key <AB10> {[ slash,     question, backslash  ]};
     key <AC11> {[ semicolon, colon     ]};
-    
+
+    key <SPCE> {[ space, space, space, space]};
 
 };
 

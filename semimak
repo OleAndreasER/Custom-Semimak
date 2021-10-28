@@ -19,22 +19,22 @@ xkb_symbols "basic" {
     key <AD11> {[ bracketleft,         braceleft         ]};
     key <AD12> {[ bracketright,        braceright         ]};
 
-    key <AC01> {[ s,         S, equal         ]};
-    key <AC02> {[ r,         R, bracketleft         ]};
-    key <AC03> {[ n,         N, parenleft       ]};
-    key <AC04> {[ t,         T, minus         ]};
-    key <AC05> {[ k,         K, braceleft         ]};
-    key <AC06> {[ c,         C, braceright         ]};
+    key <AC01> {[ s,         S, equal      , 1   ]};
+    key <AC02> {[ r,         R, bracketleft, 2         ]};
+    key <AC03> {[ n,         N, parenleft  , 3     ]};
+    key <AC04> {[ t,         T, minus      , 4      ]};
+    key <AC05> {[ k,         K, braceleft  , 5    ]};
+    key <AC06> {[ c,         C, braceright        ]};
     key <AC07> {[ d,         D, underscore        ]};
     key <AC08> {[ e,         E, parenright        ]};
     key <AC09> {[ a,         A, bracketright         ]};
     key <AC10> {[ i,         I, colon         ]};
 
-    key <AB01> {[ x,         X         ]};
-    key <AB02> {[ apostrophe, quotedbl ]};
-    key <AB03> {[ b,         B         ]};
-    key <AB04> {[ m,         M, asterisk	       ]};
-    key <AB05> {[ j,         J         ]};
+    key <AB01> {[ x,         X, x,           6         ]};
+    key <AB02> {[ apostrophe, quotedbl, apostrophe, 7 ]};
+    key <AB03> {[ b,         B, b,           8]};
+    key <AB04> {[ m,         M, asterisk,    9	       ]};
+    key <AB05> {[ j,         J, j,           0       ]};
     key <AB06> {[ p,         P         ]};
     key <AB07> {[ g,         G, plus        ]};
     key <AB08> {[ comma,     less      ]};
